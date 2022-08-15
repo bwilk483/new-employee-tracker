@@ -4,13 +4,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node script"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bwilk483/new-employee-tracker.git"
   },
-  "author": "",
+  "author": "Bryan Wilkerson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bwilk483/new-employee-tracker/issues"
@@ -19,6 +19,7 @@
   "description": "",
   "dependencies": {
     "console.table": "^0.10.0",
+    "express": "^4.18.1",
     "inquirer": "^9.1.0",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.3"
