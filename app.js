@@ -7,6 +7,7 @@ const start = () => {
     {
       type: "list",
       message: "what would you like to do?",
+      name: "list",
       choices: [
         "View departments",
         "View roles",
