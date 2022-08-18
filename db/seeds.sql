@@ -17,24 +17,25 @@ VALUES
     ('marketing intern', 25000, 4),
     ('software engineer intern', 30000, 4);
 
-INSERT INTO employees (first_name, last_name, role_id, manager_id)
+INSERT INTO employee (first_name, last_name, roles_id, manager_id)
 VALUES
     ('Bryan', 'Wilkerson', 1, null),
     ('Teshia', 'Jarnagin', 2, null),
     ('Jaiden', 'Faith', 3, null),
-    ('Matt', 'Right', 4, 1),
-    ('Josh', 'Allen', 5, 2),
-    ('Allen', 'Johnson', 6, 3),
-    ('BOB', 'Ross', 7, 1),
-    ('Clay', 'Mathew', 8, 2),
-    ('Arron', 'Rodgers', 9, 3),
-    ('Mike', 'McArthy' )
-    ('Caleb', 'Carnigie', 11, null),
-    ('Sanda', 'Rangel', 12, null),
-    ('Anthony', 'Combs', 13, null),
-    ('Deacon', 'Piles', 14, 1),
-    ('Ari', 'Brooklin',15, 2),
-    ('Joelessa', 'Clemons', 16, 3),
-    ('jaz', 'Rynalds', 17, 1),
-    ('Chis', 'Smith', 18, 2),
-    ('Ammie', 'Apex', 19, 3);
+    ('Matt', 'Right', 4, null),
+    ('Josh', 'Allen', 5, 1),
+    ('Allen', 'Johnson', 6, 2),
+    ('BOB', 'Ross', 7, 3),
+    ('Clay', 'Mathew', 8, 4),
+    ('Arron', 'Rodgers', 9, 1),
+    ('Mike', 'McArthy', 1, 2),
+    ('Caleb', 'Carnigie', 1, 3),
+    ('Sanda', 'Rangel', 2, 4),
+    ('Anthony', 'Combs', 3, 1),
+    ('Deacon', 'Piles', 4, 2),
+    ('Ari', 'Brooklin',5, 3),
+    ('Joelessa', 'Clemons', 6, 4),
+    ('jaz', 'Rynalds', 7, 1),
+    ('Chis', 'Smith', 8, 2),
+    ('Victor', 'Hernandez', 9, 3),
+    ('Ammie', 'Apex', 1, 4);
